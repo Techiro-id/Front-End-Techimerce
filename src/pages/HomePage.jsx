@@ -1,13 +1,18 @@
 import React, { Component, Fragment } from 'react'
+import { Router, Route, Switch } from "react-router";
+import HomePage from '../pages/HomePage';
 
-export class HomePage extends Component {
+class AppRoute extends Component {
      render() {
           return (
                <Fragment>
-                    <h1>This is our Home Page</h1>
+                    <Switch>
+                         <Route exact to="/" component={HomePage} />
+                    </Switch>
+
                </Fragment>
           )
      }
 }
 
-export default HomePage
+export default AppRoute
