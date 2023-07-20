@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Easy Express">
+    <meta name="apple-mobile-web-app-title" content="Easy Express">
+    <meta name="theme-color" content="#38b6ff">
+    <meta name="msapplication-navbutton-color" content="#38b6ff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Techiromerce - IT e-Commerce Site by Techiro"/>
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -25,6 +33,15 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" defer></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "fb27321c-4658-46dc-a5fd-0ab39c558d5f",
+        });
+      });
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
