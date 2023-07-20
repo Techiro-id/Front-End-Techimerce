@@ -7,6 +7,7 @@ import HomeTop from '../components/home/HomeTop'
 import NavMenuDesktop from '../components/common/NavMenuDesktop'
 import NavMenuMobile from '../components/common/NavMenuMobile'
 import HomeTopMobile from '../components/home/HomeTopMobile'
+import FooterDesktop from '../components/common/FooterDesktop'
 
 class AppRoute extends Component {
      render() {
@@ -21,11 +22,12 @@ class AppRoute extends Component {
                     <NavMenuMobile />  
                     <HomeTopMobile />
                 </div>
-                
+
                 <FeaturedProducts />
                 <NewArrival />
                 <Categories />
                 <Collection />
+                <FooterDesktop/>
             </Fragment>
           )
      }
