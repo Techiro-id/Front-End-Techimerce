@@ -47,7 +47,7 @@ class NavMenuMobile extends Component {
          <Row>
               <Col lg={4} md={4} sm={12} xs={12}>
 
-   <Button onClick={this.MenuBarClickHandler} className="btn"><i className="fa fa-bars"></i>  </Button>
+              <Button onClick={this.MenuBarClickHandler} className="btn"><i className="fa fa-bars"></i> </Button>
 
               <Link to="/"> <img className="nav-logo" src={Logo} /> </Link>
               
